@@ -37,14 +37,29 @@ Previously at **Tredence** (1st place, Intern Capstone Competition), **StageZero
 
 ## Experience
 
-**Data & AI Engineer Intern · Tredence** · Jun – Aug 2026<br>
-1st place, Intern Capstone Competition. Led a 5-person team building a predictive-maintenance agent: an XGBoost model with SHAP explainability, exposed through an MCP server to an LLM agent.
-
-**AI Full Stack Developer Intern · StageZero Health (MIT)** · Sep – Dec 2025<br>
-Cancer risk-assessment app (Gail, BOADICEA), a conversational AI assistant on GCP, and HIPAA-aligned backend services. Cut cached response latency by ~96%.
-
-**Data Engineer Intern · Nihilent** · May – Aug 2025<br>
-SAP-to-Snowflake pipelines processing ~10M records/day with AWS Glue and Airflow. CloudWatch monitoring saved ~30 hours/month of triage.
+<table width="100%">
+<tr>
+<td><b>Data &amp; AI Engineer Intern · Tredence</b><br><sub>San Jose, CA, United States</sub></td>
+<td align="right" nowrap><b>Jun 2026 – Aug 2026</b></td>
+</tr>
+<tr>
+<td colspan="2"><b>1st place, Intern Capstone Competition.</b> Led a 5-person team building a predictive-maintenance agent: an XGBoost model with SHAP explainability, exposed through an MCP server to an LLM agent.</td>
+</tr>
+<tr>
+<td><b>AI Full Stack Developer Intern · StageZero Health</b><br><sub>Early-stage startup · MIT, Cambridge, MA, United States</sub></td>
+<td align="right" nowrap><b>Sep 2025 – Dec 2025</b></td>
+</tr>
+<tr>
+<td colspan="2">Cancer risk-assessment app (Gail, BOADICEA), a conversational AI assistant on GCP, and HIPAA-aligned backend services. Cut cached response latency by ~96%.</td>
+</tr>
+<tr>
+<td><b>Data Engineer Intern · Nihilent</b><br><sub>India</sub></td>
+<td align="right" nowrap><b>May 2025 – Aug 2025</b></td>
+</tr>
+<tr>
+<td colspan="2">SAP-to-Snowflake pipelines processing ~10M records/day with AWS Glue and Airflow. CloudWatch monitoring saved ~30 hours/month of triage.</td>
+</tr>
+</table>
 
 ## Tech stack
 
@@ -59,5 +74,13 @@ SAP-to-Snowflake pipelines processing ~10M records/day with AWS Glue and Airflow
 
 ## Education
 
-**M.S. Information Systems** · Northeastern University, Boston · 2024 – 2026<br>
-**B.Tech Computer Engineering** · Veermata Jijabai Technological Institute (VJTI), Mumbai · 2020 – 2024
+<table width="100%">
+<tr>
+<td><b>Northeastern University</b><br><sub>Master of Science (M.S.) in Information Systems · Boston, MA, United States</sub></td>
+<td align="right" nowrap><b>2024 – 2026</b></td>
+</tr>
+<tr>
+<td><b>Veermata Jijabai Technological Institute (VJTI)</b><br><sub>Bachelor of Technology (B.Tech) in Computer Engineering · Mumbai, India</sub></td>
+<td align="right" nowrap><b>2020 – 2024</b></td>
+</tr>
+</table>
