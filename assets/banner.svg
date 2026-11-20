@@ -1,40 +1,177 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" width="1000" height="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
   <title>Sanskruti Mahajan · AI &amp; Data Engineer</title>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0D1117"/>
-      <stop offset="1" stop-color="#15213A"/>
+      <stop offset="1" stop-color="#16223A"/>
     </linearGradient>
-    <radialGradient id="orbA" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#2F81F7" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#2F81F7" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orbB" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#A371F7" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#A371F7" stop-opacity="0"/>
-    </radialGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#2F81F7"/>
       <stop offset="1" stop-color="#A371F7"/>
     </linearGradient>
-    <clipPath id="card"><rect width="1000" height="170" rx="14"/></clipPath>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C2B4A"/>
+      <stop offset="1" stop-color="#3A2F5C"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D3D7DE"/>
+      <stop offset="1" stop-color="#9EA4AE"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3B4A63"/>
+      <stop offset="1" stop-color="#26324A"/>
+    </linearGradient>
+    <radialGradient id="screenGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7CC4FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7CC4FF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="1000" height="240" rx="14"/></clipPath>
+    <clipPath id="win"><rect x="888" y="24" width="92" height="118" rx="4"/></clipPath>
   </defs>
 
   <g clip-path="url(#card)">
-    <rect width="1000" height="170" fill="url(#bg)"/>
-    <!-- two soft light orbs drifting slowly in the background -->
-    <circle cx="780" cy="60" r="150" fill="url(#orbA)">
-      <animate attributeName="cx" values="780;860;780" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="60;100;60" dur="14s" repeatCount="indefinite"/>
+    <rect width="1000" height="240" fill="url(#bg)"/>
+    <g transform="translate(1000,240) scale(1.08) translate(-1000,-240)">
+
+    <!-- ============ office: window with skyline ============ -->
+    <g clip-path="url(#win)">
+      <rect x="888" y="24" width="92" height="118" fill="url(#sky)"/>
+      <circle cx="958" cy="44" r="7" fill="#F5E6B8" opacity="0.85"/>
+      <g fill="#101828">
+        <rect x="888" y="92" width="20" height="50"/><rect x="910" y="72" width="18" height="70"/>
+        <rect x="930" y="100" width="16" height="42"/><rect x="948" y="80" width="18" height="62"/>
+        <rect x="968" y="96" width="14" height="46"/>
+      </g>
+      <g fill="#F2CC60">
+        <rect x="914" y="80" width="3" height="3"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></rect>
+        <rect x="921" y="90" width="3" height="3"><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></rect>
+        <rect x="952" y="88" width="3" height="3"><animate attributeName="opacity" values="1;0.3;1" dur="5s" repeatCount="indefinite"/></rect>
+        <rect x="959" y="104" width="3" height="3"/>
+        <rect x="893" y="100" width="3" height="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></rect>
+        <rect x="934" y="110" width="3" height="3"/>
+        <rect x="914" y="104" width="3" height="3"><animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/></rect>
+      </g>
+    </g>
+    <rect x="888" y="24" width="92" height="118" rx="4" fill="none" stroke="#4A5B78" stroke-width="4"/>
+    <line x1="934" y1="24" x2="934" y2="142" stroke="#4A5B78" stroke-width="3"/>
+
+    <!-- ============ office: wall clock ============ -->
+    <circle cx="660" cy="56" r="20" fill="#E9EEF5" stroke="#4A5B78" stroke-width="3"/>
+    <g stroke="#8A96A8" stroke-width="1.5">
+      <line x1="660" y1="40" x2="660" y2="43"/><line x1="660" y1="69" x2="660" y2="72"/>
+      <line x1="644" y1="56" x2="647" y2="56"/><line x1="673" y1="56" x2="676" y2="56"/>
+    </g>
+    <line x1="660" y1="56" x2="660" y2="46" stroke="#1F2937" stroke-width="2.2" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0 660 56" to="360 660 56" dur="60s" repeatCount="indefinite"/>
+    </line>
+    <line x1="660" y1="56" x2="667" y2="56" stroke="#1F2937" stroke-width="2.6" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0 660 56" to="360 660 56" dur="720s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="660" cy="56" r="2" fill="#E5534B"/>
+
+    <!-- ============ the engineer ============ -->
+    <!-- hair (back) + head, with a gentle head motion -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="0 820 132; -2.2 820 132; 0 820 132; 1.2 820 132; 0 820 132" dur="7s" repeatCount="indefinite"/>
+      <!-- back hair: long, wavy, past the shoulders -->
+      <path d="M788,72 C786,44 808,30 830,32 C856,34 870,52 866,76 C880,82 878,98 872,104 C886,110 884,126 876,132 C892,140 888,156 880,162 C894,170 888,186 876,190 L764,190 C752,186 746,170 760,162 C750,154 752,138 766,132 C754,124 756,108 770,104 C760,96 766,82 778,78 Z" fill="#3A271F"/>
+      <path d="M864,98 C872,108 866,118 872,128 M776,100 C768,110 774,120 768,130 M868,146 C877,156 872,168 878,178 M772,146 C764,156 770,168 764,178" fill="none" stroke="#523A2F" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- neck -->
+      <rect x="811" y="114" width="18" height="22" rx="6" fill="#DFA982"/>
+      <!-- face -->
+      <ellipse cx="820" cy="92" rx="25" ry="30" fill="#EBBC95"/>
+      <!-- blush -->
+      <ellipse cx="805" cy="104" rx="6" ry="3.5" fill="#E58C84" opacity="0.35"/>
+      <ellipse cx="836" cy="104" rx="6" ry="3.5" fill="#E58C84" opacity="0.35"/>
+      <!-- eyebrows -->
+      <path d="M801,83 Q807,78.5 814,80.5" fill="none" stroke="#2B1B15" stroke-width="2" stroke-linecap="round"/>
+      <path d="M826,80.5 Q833,78.5 839,83" fill="none" stroke="#2B1B15" stroke-width="2" stroke-linecap="round"/>
+      <!-- eyes looking down at the laptop, with eyeliner; they blink -->
+      <g fill="#2B1B15">
+        <ellipse cx="808" cy="93" rx="4.2" ry="2.6"><animate attributeName="ry" values="2.6;2.6;0.3;2.6;2.6" keyTimes="0;0.9;0.93;0.96;1" dur="5s" repeatCount="indefinite"/></ellipse>
+        <ellipse cx="831" cy="93" rx="4.2" ry="2.6"><animate attributeName="ry" values="2.6;2.6;0.3;2.6;2.6" keyTimes="0;0.9;0.93;0.96;1" dur="5s" repeatCount="indefinite"/></ellipse>
+      </g>
+      <path d="M802,91 Q808,88 814,91 L816,90" fill="none" stroke="#1A100C" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M825,91 Q831,88 837,91 L840,89" fill="none" stroke="#1A100C" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- nose, smile, beauty mark -->
+      <path d="M819,96 Q816,103 820,105" fill="none" stroke="#C98E6A" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M811,111 Q819,116 828,111" fill="#B5605C" stroke="#9E4E4B" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="838" cy="99" r="1.1" fill="#7A5240"/>
+      <!-- front hair: side part and face-framing waves -->
+      <path d="M793,80 C795,54 814,44 834,46 C852,48 862,62 860,82 C852,66 840,58 826,60 C812,62 800,70 793,80 Z" fill="#3A271F"/>
+      <path d="M796,76 C786,98 794,118 784,140 C780,152 786,164 780,176 L794,178 C798,162 800,148 800,128 C800,108 794,96 800,82 Z" fill="#3A271F"/>
+      <path d="M856,74 C864,96 858,116 868,138 C874,152 868,166 874,180 L858,180 C858,162 850,148 848,128 C846,108 852,94 848,80 Z" fill="#3A271F"/>
+      <path d="M814,52 C826,50 842,54 852,66" fill="none" stroke="#5A4034" stroke-width="2" stroke-linecap="round"/>
+      <!-- star earring -->
+      <path d="M850,108 l1.2,2.6 2.8,0.3 -2.1,1.9 0.6,2.8 -2.5,-1.4 -2.5,1.4 0.6,-2.8 -2.1,-1.9 2.8,-0.3 z" fill="#F4F4F4">
+        <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- body: cream turtleneck + taupe blazer -->
+    <path d="M768,204 C768,160 790,140 820,138 C850,140 872,160 872,204 Z" fill="#8E7D72"/>
+    <path d="M805,132 L835,132 L839,204 L801,204 Z" fill="#F1E8DA"/>
+    <rect x="806" y="126" width="28" height="12" rx="6" fill="#F1E8DA"/>
+    <path d="M806,140 L820,186 L802,204 L786,158 Z" fill="#7A6A60"/>
+    <path d="M834,140 L820,186 L838,204 L854,158 Z" fill="#7A6A60"/>
+    <path d="M810,142 Q820,152 830,142" fill="none" stroke="#CFCFD6" stroke-width="1"/>
+    <path d="M820,150 l0.9,2 2.2,0.2 -1.6,1.5 0.5,2.1 -2,-1.1 -2,1.1 0.5,-2.1 -1.6,-1.5 2.2,-0.2 z" fill="#E6E6EC"/>
+
+    <!-- far arm (behind the laptop) -->
+    <path d="M784,156 Q764,178 734,198" fill="none" stroke="#7F6F65" stroke-width="15" stroke-linecap="round"/>
+
+    <!-- ============ desk ============ -->
+    <rect x="574" y="200" width="440" height="50" rx="8" fill="url(#desk)"/>
+    <rect x="578" y="200" width="436" height="3" rx="1.5" fill="#56678A"/>
+
+    <!-- coffee mug with steam -->
+    <rect x="668" y="180" width="22" height="22" rx="4" fill="#E9EEF5"/>
+    <path d="M690,185 q8,0 8,7 q0,7 -8,7" fill="none" stroke="#E9EEF5" stroke-width="3"/>
+    <rect x="668" y="186" width="22" height="5" fill="#2F81F7"/>
+    <g fill="none" stroke="#C9D1D9" stroke-width="1.8" stroke-linecap="round" opacity="0.7">
+      <path d="M675,176 q-4,-6 0,-12 q4,-6 0,-12">
+        <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,4;0,-4" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <path d="M683,176 q4,-6 0,-12 q-4,-6 0,-12">
+        <animate attributeName="opacity" values="0;0.8;0" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,4;0,-4" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- plant -->
+    <path d="M944,200 L940,178 L966,178 L962,200 Z" fill="#C47A4E"/>
+    <g fill="#3FA06A">
+      <path d="M953,178 C944,166 934,164 928,154 C940,154 950,162 953,178 Z"/>
+      <path d="M953,178 C958,162 968,156 976,150 C974,162 964,170 953,178 Z"/>
+      <path d="M953,178 C951,162 954,150 952,138 C960,148 960,164 953,178 Z">
+        <animateTransform attributeName="transform" type="rotate" values="0 953 178;3 953 178;0 953 178" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- laptop (lid faces us) -->
+    <rect x="716" y="128" width="88" height="72" rx="6" fill="url(#lid)"/>
+    <circle cx="760" cy="162" r="6" fill="#F5F7FA">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="920" cy="140" r="130" fill="url(#orbB)">
-      <animate attributeName="cx" values="920;840;920" dur="18s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="140;90;140" dur="18s" repeatCount="indefinite"/>
-    </circle>
+    <path d="M704,200 L816,200 L824,207 L696,207 Z" fill="#B9BEC7"/>
+
+    <!-- near arm (in front) and both hands, typing -->
+    <path d="M860,156 Q878,190 846,199 L820,200" fill="none" stroke="#8E7D72" stroke-width="15" stroke-linecap="round"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0;0,-1.5;0,0" dur="0.9s" repeatCount="indefinite"/>
+      <ellipse cx="812" cy="200" rx="10" ry="5.5" fill="#EBBC95"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,-2;0,0;0,-3;0,0;0,-2" dur="0.8s" repeatCount="indefinite"/>
+      <ellipse cx="710" cy="200" rx="10" ry="5.5" fill="#E2AE88"/>
+    </g>
+    </g>
   </g>
 
-  <text x="56" y="72" font-size="40" font-weight="700" fill="#F0F6FC">Sanskruti Mahajan</text>
-  <rect x="58" y="88" width="64" height="4" rx="2" fill="url(#accent)"/>
-  <text x="58" y="120" font-size="19" font-weight="600" fill="#C9D1D9">AI &amp; Data Engineer</text>
-  <text x="58" y="146" font-size="15" fill="#8B949E">LLM agents  ·  Data pipelines  ·  Cloud infrastructure  ·  Healthcare &amp; Retail</text>
+  <!-- ============ text ============ -->
+  <text x="56" y="92" font-size="40" font-weight="700" fill="#F0F6FC">Sanskruti Mahajan</text>
+  <rect x="58" y="108" width="64" height="4" rx="2" fill="url(#accent)"/>
+  <text x="58" y="142" font-size="19" font-weight="600" fill="#C9D1D9">AI &amp; Data Engineer</text>
+  <text x="58" y="170" font-size="15" fill="#8B949E">LLM agents  ·  Data pipelines  ·  Cloud infrastructure  ·  Healthcare &amp; Retail</text>
 </svg>

@@ -6,10 +6,6 @@
   <img src="https://img.shields.io/badge/Open%20to-full--time%20roles-2EA44F?style=flat-square" alt="Open to full-time roles">
 </p>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,fastapi,ts,java,aws,gcp,azure,terraform,docker,kubernetes,githubactions,postgres&perline=15" alt="Python, PyTorch, TensorFlow, scikit-learn, FastAPI, TypeScript, Java, AWS, GCP, Azure, Terraform, Docker, Kubernetes, GitHub Actions, PostgreSQL">
-</p>
-
 ---
 
 I'm an **AI & Data Engineer** who builds production AI systems and the data and cloud infrastructure underneath them: LLM agents and retrieval (RAG, Graph-RAG, MCP), pipelines processing millions of records a day, and secure infrastructure on AWS and GCP. Much of my work is in **healthcare and retail**, where systems must be accurate, explainable, and trusted by the people who act on them.
