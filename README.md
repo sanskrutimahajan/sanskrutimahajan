@@ -8,7 +8,7 @@
 
 ---
 
-I'm an **AI & Data Engineer** who builds production AI systems and the data and cloud infrastructure underneath them: LLM agents and retrieval (RAG, Graph-RAG, MCP), pipelines processing millions of records a day, and secure infrastructure on AWS and GCP. Much of my work is in regulated domains like **healthcare and financial crime**, where answers must be explainable, grounded in evidence, and safe to act on.
+I'm an **AI & Data Engineer** who builds production AI systems and the data and cloud infrastructure underneath them: LLM agents and retrieval (RAG, Graph-RAG, MCP), pipelines processing millions of records a day, and secure infrastructure on AWS and GCP. Much of my work is in **healthcare and retail**, where systems must be accurate, explainable, and trusted by the people who act on them.
 
 Previously at **Tredence** (1st place, Intern Capstone Competition), **StageZero Health (MIT)**, and **Nihilent**. Open to full-time roles in AI/ML, data, and cloud engineering, and available immediately.
 
